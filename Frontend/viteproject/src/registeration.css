@@ -1,0 +1,217 @@
+/* 
+.formbackground{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registerparent{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.register-box {
+  position: relative;
+  width: 500px;
+  height: 740px;
+  background: transparent;
+  border-radius: 8px;
+  overflow: hidden;
+  
+}
+
+.registerform{
+  position: absolute;
+  inset: 4px;
+  background: white;
+  padding: 50px 40px;
+  border-radius: 8px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.registerh1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.boarderrr{
+  border: 1px solid;
+}
+
+.registerh1 h1{
+  text-align: center;
+  font-size: 70px;
+  font-weight:900 ;
+  background: url('https://www.cleanfuture.co.in/wp-content/uploads/2022/05/fire-17.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+ 
+}
+
+.Register-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 100;
+}
+.register-body{
+  background: #003730 !important ;
+}
+
+.register-box form .input-box {
+  position: relative;
+  width: 300px;
+ 
+}
+
+.form-group input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    color: #23242a;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+    border: 0px;
+}
+.form-group span{
+  position: absolute;
+  left: 0;
+  pointer-events: none;
+  color: #8f8f8f;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+}
+
+.form-group input:focus +span {
+  color: black;
+  font-size: 0.75em;
+  transform: translateY(-20px);
+}
+
+
+
+.form-group input:focus {
+  border-radius: 10px;
+ color: black;
+ border-bottom: 1px solid #008374;
+ border-radius: 0px;
+}
+
+.form-group input:focus , .form-group{
+  scale: 1;
+}
+.register-box form .link a:nth-child(2):hover {
+  color: #fff;
+}
+
+.submit{
+  border-radius: 1px;
+  padding: 10px 25px;
+  background: linear-gradient(to right, #5f2c82, #49a09d);
+  border: 0px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+}
+
+
+
+.register-pic-navlink .doyou{
+  
+  font-size: 15px;
+  color: #49a09d;
+}
+.form-group i{
+  color: white;
+  font-size: 19px;
+}
+.form-group{
+  padding: 5px;
+}
+
+
+.registerform .form-group i{
+  color:#8f8f8f;
+}
+
+.register-body {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  background: white;
+}
+
+.stickynav-edit{
+  width: 100%;
+  position: sticky ;
+  z-index: 10;
+  top: 0;
+} */
+
+.handle-vendor-login-register{
+  border: 0px;
+  outline: none;
+  background:#008374 ;
+  color: white;
+  padding: 8px 15px;
+
+}
+.handle-vendor-login-register2{
+  border: 0px;
+  outline: none;
+  background:#008374 ;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.handle-vendor-login-register-login{
+  border: 0px;
+  outline: none;
+  background:#008374 ;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.logn-as-vendor-btn{
+  border: 0px;
+  outline: none;
+  color: rgb(6, 6, 6);
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-top: 5px;
+  
+}
+.Contact-btn-box1{
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 0 !important;
+  padding: 0 !important;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px 0px #008374; */
+}
+.Login-vendor-btn{
+  background: #008374 !important;
+}
+.Login-vendor-btn:hover{
+  background: white !important;
+  color: black ;
+  border: 1px solid #008374;
+  transition: 0.3s;
+}
+
+
+

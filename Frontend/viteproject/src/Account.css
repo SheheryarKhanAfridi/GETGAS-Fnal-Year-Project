@@ -1,0 +1,82 @@
+.label{
+    color: #666666;
+    font-size: 18px;
+}
+.form-child{
+    padding: 10px;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+.form-parent{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.inputfields{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    outline: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+}
+.form-child form div{
+    margin: 10px;
+}
+.formright{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    
+}
+
+.editButton{
+    border-radius: 5px;
+    padding: 5px 40px;
+    border: 0px;
+    background: rgb(255, 136, 0);
+    color: white;
+    font-size: 20px;
+}
+
+.editButton:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+
+.edit-profile{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+.edit-profile form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .edit-profile .editButton{
+    margin-bottom: 20px;
+  }
+  .stickynav-edit{
+    width: 100%;
+    position: sticky ;
+    z-index: 10;
+    top: 0;
+  }
+
+  

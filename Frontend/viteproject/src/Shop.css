@@ -1,0 +1,198 @@
+.rowparent{
+    border: 1px solid;
+    padding: 20px;
+}
+.child{
+    border: 1px solid;
+}
+.childback{
+    /* background: #6d75758a; */
+}
+.shopname{
+   text-align: center;
+}
+.owner-info p{
+   
+}
+.owner-info p strong{
+    color: darkslategrey;
+}
+.imageicon{
+    color: darkslategrey;
+    text-align: center;
+    font-size: 60px;
+}
+.edditionalbtn{
+    background:darkslategrey ;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 0px;
+    margin-bottom: 10px;
+}
+.edditionalbtn:hover{
+    background: white;
+    color: black;
+    border: 1px solid darkslategrey ;
+   
+}
+.addshopP h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+.addshopP{
+    border-bottom: 2px solid darkslategrey;
+}
+
+.edit-btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.editShopInput{
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid;
+    outline: none;
+}
+.EsitShopName{
+    border: 0px;
+    outline: none;
+    background: rgba(224, 224, 223, 0.585);
+    padding-inline: 10px;
+    padding-block: 10px;
+    border-radius: 5px;
+}
+.EsitShopName:hover{
+    background: transparent;
+    border-bottom: 1px solid;
+    border-radius: 0px;
+    transition: 0.3s;
+}
+.Edit-submit-shop{
+    background: darkslategrey ;
+    outline: none;
+    border: 0px;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+}
+.Edit-submit-shop2{
+    background: darkslategrey ;
+    outline: none;
+    border: 0px;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+}
+.parent-Edit-submit-shop{
+    display: flex;
+    justify-content: center;
+    
+}
+.Edit-submit-shop:hover{
+    background:linear-gradient(45deg, #ff9000, #ff2600);
+   
+}
+.Parentoffinalform{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.SHopName{
+    /* border-bottom: 1px solid; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    border-radius: 5px;
+}
+.defaultName{
+    font-family: Arial, Helvetica, sans-serif;
+    /* border-bottom: 1px solid; */
+    margin: 5px;
+    color: white;
+}
+.showupdatedDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+.btn-outline-primary:hover{
+    background:darkslategrey !important ;
+}
+.btn-outline-primary{
+    border: 1px solid darkslategrey !important;
+    color: darkslategrey ;
+}
+.btn-outline-primary:focus{
+    font-weight: bold !important;
+}
+.updatemsg {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    position: relative;
+    animation: slideIn 1s ease-in forwards; /* Adjust the animation duration and timing function as needed */
+}
+.bodyyyy{
+    overflow: hidden;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(50%); /* Move from the right side (you can adjust the percentage) */
+        opacity: 0; 
+    }
+    to {
+        transform: translateX(0); /* Stop at the final position */
+        opacity: 1; /* Fully visible */
+    }
+}
+.updatemsg:active{
+    animation: slideoff 1s ease-out backwards
+}
+@keyframes slideoff {
+    from {
+        transform: translateX(0%); /* Move from the right side (you can adjust the percentage) */
+        opacity: 1; 
+    }
+    to {
+        transform: translateX(100%); /* Stop at the final position */
+        opacity: 0; /* Fully visible */
+    }
+}
+.updatemsgicon{
+    color: white;
+    font-size: larger;
+    margin-left: 20px;
+}
+.updatemsgicon:hover{
+    color: #ff9000;
+}
+.deletemsg{
+    text-align: center;
+}
+.deleteparentmsg{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stickynav-edit{
+    width: 100%;
+    position: sticky ;
+    z-index: 10;
+    top: 0;
+  }

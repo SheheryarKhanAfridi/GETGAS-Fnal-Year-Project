@@ -1,0 +1,527 @@
+body{
+  overflow-x: hidden;
+}
+.navbar{
+  position: sticky;
+  top: 0; 
+  z-index: 1000;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  /* background: #222; */
+  /* background: linear-gradient(to right,rgb(198, 198, 233),rgb(60, 55, 55)); */
+  background: #008374;
+  height: 15vh;
+  backdrop-filter: blur(5px);
+
+}
+
+.footerback{
+  background: #222;
+}
+.footerback p{
+  color: white;
+}
+
+header {
+  backdrop-filter: blur(1px);
+  color: white;
+}
+
+.logo {
+  height: 15vh;
+}
+/* -----------------x---------------x-----------------x----------- */
+.star-rating {
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 30px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.star.active {
+  color: yellow;
+}
+
+.nav-link {
+  color: white;
+}
+.items---nav .nav-link:hover{
+  color: white !important; 
+   border-bottom: 2px solid #FFA500;
+}
+
+.nav-link:active{
+  color: black;
+}
+.nav-link{
+  color: rgba(246, 248, 249, 0.628) !important;
+  font-size: 17px !important;
+  padding: 10px 15px 10px 15px !important;
+  font-weight: 700 !important;
+}
+.menuhover li:hover{
+  /* transform: scale(1.1);  */
+  transition: transform 0.2s;
+  font-weight: bold;
+}
+.submit{
+  border: 0px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  
+}
+.submit:hover{
+  transform: scale(1.1); 
+  transition: transform 0.2s;
+}
+/* .register-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  width: 100%;
+  flex-wrap: wrap;
+ 
+}
+.register-body{
+  width: 100%;
+  height: 85vh;
+  max-width: 100%;
+  background: #222;
+}
+.register-form h2{
+  font-weight: bolder;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+  margin-right: 20px;
+      
+}
+.registerform div i{
+  margin: 5px;
+}
+.registerform div input{
+  border: 0;
+  padding: 5px;
+  margin: 3px;
+  background: transparent;
+  
+  
+}
+.registerform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+} */
+
+/* .register {
+  background: url(./Pictures/register.png);
+  background-repeat: no-repeat;
+  background-size: 50vw 100vh;
+  background-position: center;
+} */
+
+/* .register-pic-navlink{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.doyou{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.loginbody{
+  height: 85vh;
+}
+.loginmargin{
+ padding-top: 5vw;
+ padding-bottom: 5vh;
+}
+.notfound{
+  text-align: center;
+  height: 60vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.notfound span{
+  font-size: 18px;
+}  */
+
+
+/* description css */
+.despic{
+  width: 190px;
+}
+.timeline {
+ 
+  color: black !important;
+  background: white !important;
+}
+.timeline:focus {
+  background: black!important;
+  color: white !important;
+}
+
+/* Contact us custom CSS */
+
+.contactusdefault{
+/* background-image: linear-gradient(62deg, rgb(71, 101, 138) 0%, #c670d0 100%); */
+background: rgba(56, 83, 79, 0.728); 
+box-shadow: 5px 5px 15px rgba(0, 0.0, 0, 0.2);
+
+}
+.contactusdefault h3{
+  color: white
+}
+.Caddress span{
+  color: white;
+}
+.Caddress p{
+  color: black;
+  font-size: 20px;
+}
+.addressfont {
+  color: white;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+  width: 40px; 
+  text-align: center;
+  line-height: 40px; 
+  margin-right: 10px;
+}
+.Cphone span{
+  color: white;
+}
+.Cphone p{
+  color: black;
+  font-size: 20px;
+}
+.phonefont {
+  color: white;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+  width: 40px; 
+  text-align: center;
+  line-height: 40px; 
+  margin-right: 10px;
+}
+.Cemail span{
+  color: white;
+}
+.Cemail p{
+  color: black;
+  font-size: 20px;
+}
+.emailfont {
+  color: white;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+  width: 40px; 
+  text-align: center;
+  line-height: 40px; 
+  margin-right: 10px;
+}
+.contact-firstpara{
+  color: black;
+}
+.Cphone a{
+  color: black;
+}
+.Cemail a{
+  color: black;
+}
+.margin-contact-details{
+  margin-bottom: 20px;
+}
+
+.contactForm .form-control{
+  border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    
+}
+.form-control{
+  background: transparent;
+  color: white;
+}
+
+
+.containercontactus {
+  width: 100%;
+  max-width: 100%;
+  padding: 50px;
+  /* background: linear-gradient(45deg, #debfb6, #ffcc80);  */
+  background: rgba(0, 131, 116, 0.9);
+}
+
+.about{
+  border: 1px solid;
+}
+
+.username{
+  background-color: white;
+  border-radius: 50px;
+  padding: 0px 30px;
+  
+}
+.username h5{
+   padding-top: 5px;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+}
+.gif{
+  width: 50px;
+  height: 50px;
+}
+.cardsback{
+  text-align: center;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.card{
+  box-shadow: 5px 5px 10px rgba(0, 0.5, 0, 0.2);
+}
+.swipershaow{
+  box-shadow: 5px 5px 15px rgba(0, 0.0, 0, 0.2);
+}
+.cardsButton:hover{
+  background: burlywood;
+  color: black !important;
+  outline: none;
+  border: 0px;
+  border-radius: 10px;
+}
+.cardsButton{
+font-size: 20px;
+margin-bottom: 20px;
+margin-top: 20px;
+width: 80%;
+}
+
+
+
+.specialchilds{
+  padding-top: 100px;
+  padding-bottom: 50px;
+ 
+  
+}
+.specialchild1{
+  padding: 30px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.specialchild1 h1{
+  font-size: 45px;
+  padding-top: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.specialchild2{
+  font-size: 16px;
+  padding: 30px;
+  
+  
+}
+.specialchild3{
+  font-size: 16px;
+  padding: 30px;
+  
+  
+}
+.specialchild3 a{
+  color: black;
+  font-size: 25px;
+  
+}
+.tigerdivwidth{
+  margin-left: auto;
+  width:100%;
+  height: 350px;
+  background-image: url('https://www.shutterstock.com/shutterstock/photos/329603702/display_1500/stock-photo-old-gas-cylinder-329603702.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+.tigerdivtext{
+ font-size: 80px;
+  padding-top: 60px;
+  background: -webkit-linear-gradient(45deg, #ff9000, #ff2600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    
+}
+.tiger2divwidth{
+  margin-left: auto;
+  width:100%;
+  height: 350px;
+  background-image: url('https://www.shutterstock.com/shutterstock/photos/2314228841/display_1500/stock-photo-a-view-of-old-rusty-gas-cylinders-against-a-building-2314228841.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.collumn2tiger{
+  padding: 10px;
+  
+}
+.collumn2tiger p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 100px;
+  font-size: 17px;
+  box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.2);
+  
+}
+.collumn2tiger h1{
+  box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+  padding-right: 0px;
+  background: -webkit-linear-gradient(45deg, #ff9000, #ff2600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.remember{
+  padding-top: 70px;
+  margin-top: 80px;
+  padding-bottom: 70px;
+  text-align: center;
+  margin-bottom: 80px;
+  box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.2);
+
+}
+.remember h3{
+  background: -webkit-linear-gradient(45deg, #ff9000, #ff2600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.damage{
+  padding: 30px;
+}
+/* For screens up to 768px wide */
+@media screen and (max-width:992px){
+  
+  .specialchild2 h3{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .specialchild2 p{
+    font-size: 15px;
+  }
+  .specialchild3 h3{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .specialchild3 p{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tigerdivwidth, .tiger2divwidth {
+    height: 250px; /* Adjust the height as needed for smaller screens */
+  }
+
+  .tigerdivtext {
+    font-size: 50px; /* Adjust the font size for smaller screens */
+  }
+  .remember{
+    font-size: 20px;
+    padding-inline: 10px;
+  }
+  .collumn2tiger h1{
+    font-size: 30px;
+  }
+  
+}
+
+/* For screens up to 576px wide */
+@media screen and (max-width: 576px) {
+  .tigerdivwidth, .tiger2divwidth {
+    height: 200px; /* Adjust the height as needed for even smaller screens */
+  }
+
+  .tigerdivtext {
+    font-size: 40px; /* Adjust the font size for even smaller screens */
+  }
+
+  .collumn2tiger p {
+    font-size: 16px;
+    text-align: center;
+    padding-right: 0px;
+     /* Adjust the font size for smaller screens */
+  }
+
+  .collumn2tiger h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+}
+.navbarmenubut:active{
+  background: rgba(0, 0, 0, 0.438); /* Set a transparent background */
+   /* Apply a blur effect */
+}
+.navbar-collapse.collapse.show {
+  /* background: rgba(0, 0, 0, 0.579);  */
+  background: #008374;
+   padding: 30px;
+   border-radius: 10px;
+   backdrop-filter: blur(10px);
+}
+.getlogo b{
+  background: -webkit-linear-gradient(45deg, #ff9000, #ff2600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.getlogo h3{
+ color: black;
+}
+
+.stickynav-edit{
+  width: 100%;
+  position: sticky ;
+  z-index: 10;
+  top: 0;
+}
+
+/* Hide the up and down arrows for number input */
+input[type=number]::-webkit-scrollbar,
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Optional - if you want to remove the margin as well */
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
+.footer-menu-color{
+  color: black !important;
+}
+
+
+
+
+
+

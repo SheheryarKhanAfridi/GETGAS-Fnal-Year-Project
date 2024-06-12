@@ -1,0 +1,609 @@
+.App {
+    overflow-x: hidden;
+   
+  }
+  
+
+  .navbar-container {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s ease;
+    z-index: 1001;
+    padding-top: 70px;
+  }
+  
+  .navbar-container.open {
+    left: 0;
+  }
+  
+  .navbar-nav2 {
+    list-style: none;
+    padding: 0;
+  }
+  
+
+  
+  .blur-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 998; /* Lower z-index to place behind navbar */
+    display: none;
+    backdrop-filter: blur(5px); /* Add backdrop filter for blur effect */
+  }
+  
+  .blur-bg.active {
+    display: block;
+  }
+.menu-toggle2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hamburger{
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+}
+.hamburger:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: rotatex(180deg);
+    transform: rotatey(180deg);
+}
+.menu-toggle:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: rotatex(180deg);
+    transform: rotatey(180deg);
+}
+.menu-toggle2{
+    font-size: 30px ;
+}
+.rotateleft{
+    transform: rotatex(180deg);
+    transition: 0.9s;
+    opacity: 0;
+
+}
+.rotateright{
+    transform: rotatey(0deg);
+    transition: 0.9s;
+}
+.heroadmin{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.OrderInspectionpic{
+  width: 100%;
+}
+.inspection-drop{
+  background: transparent;
+  color: rgba(255, 255, 255, 0.685);
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+.btn-grup-inspection{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.btn-instant-schedule{
+  text-align: center;
+  padding: 10px 30px !important;
+  background: transparent !important;
+  color: black !important;
+}
+.btn-instant-schedule:hover{
+  background: transparent !important;
+}
+.iconforinstantbtn{
+  font-size: 50px;
+  border-bottom: 3px solid;
+}
+.notshowIcon{
+  font-size: 50px;
+  opacity: 0;
+}
+.whatsapp{
+  font-size: 25px;
+}
+.details-admin{
+  background: #333333ab;
+  color: white;
+  border: 0px;
+  outline: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+}
+.left-align-btn{
+  display: flex;
+  justify-content: end;
+}
+.loaderwidth{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.form-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form-box label{
+  font-size: 15px;
+  margin-right: 5px;
+  color: #333 ;
+  font-weight: bold;
+}
+.form-box span{
+  font-size: 11px;
+}
+.form-parent-inspection{
+ padding: 20px;
+ padding-top: 40px;
+  
+}
+.order-id-inspection h1{
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.order-id-inspection {
+  padding-top: 30px;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+.admin-btns-ins{
+  display: flex;
+  padding-top: 30px;
+}
+.admin-btns-ins button{
+  font-weight: 500;
+}
+.admin-btns-ins button:hover{
+  scale: 1.0;
+  transition: 0.3s;
+  border-radius: 5px !important;
+  padding: 6px 40px;
+}
+.order-id-inspection span{
+  font-weight: 400;
+}
+.card-child-1{
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+.query-card{
+  padding: 50px;
+}
+.user-input label{
+  font-size: 15px;
+  padding-right: 10px;
+  font-weight: 500;
+}
+.user-input input{
+  width: 100%;
+  border: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.437);
+  outline: none;
+  padding-inline: 10px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 2px;
+}
+.response-btn{
+  border: 0px;
+  background: #333;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.btns-query{
+  display: flex;
+  justify-content: center;
+}
+.card-border-query{
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.card:hover{
+  border: 0px;
+}
+.queryDetails{
+  display: flex;
+  border-bottom: 1px solid #33333352;
+}
+.queryDetails li{
+  margin-right: 10px;
+  font-size: 15px;
+}
+.queryDetails span{
+  font-size: 15px;
+}
+.text-query-msg{
+  padding: 10px;
+  width: 100%;
+  border: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  outline: none;
+}
+.card-parent-querys{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.total-count{
+  width: 200px;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.message-label{
+  font-size: 15px;
+  font-weight: 500;
+}
+.Client-query{
+  padding-inline: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.196);
+}
+.UserDetails{
+
+}
+.headinginfo{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.headinginfo h1{
+  font-size: 25px;
+  color: #004f45 ;
+  border-bottom: 1px solid #333;
+}
+.Details-User-Admin{
+  border: 0;
+  outline: none;
+  background: #343434 !important;
+  color: white;
+  padding: 8px 30px !important;
+  border-radius: 5px;
+}
+.Details-User-Admin:hover{
+  background: white !important;
+  color: black;
+  border: 1px solid;
+  scale: 1.0;
+  transition: 0s;
+  padding: 6px 25px !important;
+
+}
+.finalShopDeatils .form-box {
+  width: 100% !important;
+}
+.finalformofshopadmin{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.backAdmin{
+  border: 1px solid;
+  position: fixed;
+  background: transparent !important;
+  color: black;
+  padding: 8px 30px;
+  font-size: 18px ;
+  border: 1px solid#004f45;
+}
+.backAdmin:hover{
+  background: #004f45 !important;
+  color: white;
+  padding: 8px 50px;
+}
+.form-user-details-admin{
+  padding-top: 50px;
+  position: relative;
+  margin: auto;
+}
+.form-user-details-admin .modal-content{
+  padding: 50px;
+}
+.alert-parent{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.428);
+  backdrop-filter: blur(60px);
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  align-items: center;
+}
+
+.aler-childfordetails{
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+}
+
+.alertclose h3{
+  font-size: 20px;
+}
+.alertclose{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.close-alert{
+  font-size: 20px;
+  color: black;
+}
+.close-alert:hover{
+  scale: 1.2;
+  transition: 0.2s;
+  border-bottom: 1px solid;
+}
+.showaler-ofsuccess {
+  position: fixed;
+  top: 40px;
+  right: 0;
+  margin-top: 60px;
+  animation: slideInRight 0.5s ease forwards;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.updatedForm div{
+  background: white;
+}
+.updatedForm{
+  backdrop-filter: blur(20px);
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+.updatedform-parent{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background: #33333351;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.updatedForm p{
+  font-size: 22px;
+  font-weight: 500;
+  color: #333333d6;
+}
+.updateform-btns{
+  display: flex;
+  justify-content: space-evenly;
+}
+.cardadmin{
+  text-decoration: none ;
+}
+.text-dcor{
+  text-decoration: none;
+}
+.text-dcor div .card-body h5{
+  color: black;
+}
+.Details-User-Admin2{
+  border: 0px;
+  outline: none;
+  padding: 8px 17px;
+  background: #004f45;
+  color: white;
+  border-radius: 5px;
+}
+.Details-User-Admin2:hover{
+  scale: 1;
+  cursor: not-allowed;
+}
+
+.deletealert{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background: #33333351;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.deletealert .card{
+ padding: 20px;
+ border-radius: 10px;
+}
+
+.whats-app-btn button{
+  width: 80vw;
+}
+.querydetailsxyz{
+  width: 100%;
+  border-radius: 10px;
+  /* background: lightgrey; */
+  /* background: rgba(141, 141, 141, 0.424); */
+  background: rgb(232, 231, 230);
+  padding: 50px;
+}
+.responsesection{
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+}
+.subjectss{
+  border: 0px;
+  background: transparent;
+  color: black;
+  outline: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  border-radius: 10px;
+}
+.inputs label{
+  font-weight: bold;
+  font-family: monospace;
+  margin-right: 5px;
+  font-size: 20px;
+  color: grey;
+
+}
+.inputs textarea{
+  margin-top: 5px;
+  width: 250px;
+  padding: 20px;
+}
+.inputs{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.queriestag{
+  font-size: 25px;
+  text-align: left;
+  padding-bottom: 20px;
+  color: rgb(63, 63, 63);
+
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+}
+.parent-intputss{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.214);
+}
+.adminhandle{
+
+}
+.textareaset {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.textareaset label {
+  font-size: 20px;
+  font-family: monospace;
+  margin-right: 10px;
+  color: rgb(63, 63, 63);
+
+}
+.textareaset textarea{
+  background: transparent;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  border: 1px solid white;
+  color: rgb(63, 63, 63);
+
+}
+.textareaset textarea:focus{
+  background: white;
+  transition: 2s;
+
+}
+.subjectsadmin{
+  display: flex;
+  flex-direction: column;
+}
+.subjectsadmin label{
+  font-size: 20px;
+  color: black;
+  font-family: monospace;
+  margin-right: 10px;
+  color: rgb(63, 63, 63);
+  
+}
+.subjectsadmin input{
+  background: transparent;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  border: 1px solid white;
+  color: rgb(63, 63, 63);
+
+}
+.subjectsadmin input:focus{
+  background: white;
+  transition: 2s;
+}
+.responsesection h5{
+  color: rgb(63, 63, 63);
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+.response-btn{
+  background: rgba(109, 109, 109, 0.582);
+}
+.responsesection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.close-icon{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  font-size: 25px;
+  color: rgb(30, 59, 121);
+}
+.close-icon:hover{
+  color: rgb(104, 104, 104);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.emailparent{
+  backdrop-filter: blur(20px);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+.manageallmsgs{
+  height: 300px;
+  overflow: auto;
+}

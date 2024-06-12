@@ -1,0 +1,133 @@
+.vendor-body {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+  }
+  
+  .Add-shop {
+    border: none;
+    background: linear-gradient(to bottom, #007BFF, #0056b3); 
+     color: #fff; 
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Add-shop:hover {
+    background-color: #1c87c9;
+  }
+  
+  .vendor-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .vendor-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .vendor-input label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .vendor-input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .vendor-input input:focus {
+    border-color: #3498db;
+  }
+  
+  .city-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    flex-wrap: wrap;
+  }
+  .vendor-form form{
+    width: 700px;
+  }
+  @media screen and (max-width:699px)
+  {
+    .vendor-form form{
+        width: 85%;
+      }
+  }
+  
+
+  .input-pics{
+    border: 0px;
+    background: linear-gradient(to right, #c1c1b9, #b99363); /* Gradient from orange to red */
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: black;
+  }
+
+.vendor-link{
+  text-decoration: none;
+  color: white;
+}
+.vendor-link:hover{
+  color: white;
+  transition: 0.2s;
+}
+h3.text-center b {
+  background: -webkit-linear-gradient(45deg, #ff9000, #ff2600);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.vendorformsubmit{
+  margin-block:20px ;
+  border: 0px;
+  padding: 5px 70px;
+  background:linear-gradient(45deg, #ff9000, #ff2600) ;
+  color: white;
+  border-radius: 5px;
+  font-size: 19px;
+}
+.stickynav-edit{
+  width: 100%;
+  position: sticky ;
+  z-index: 10;
+  top: 0;
+}
+.deletealert{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background: #33333351;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.deletealert .card{
+ padding: 20px;
+ border-radius: 10px;
+}
+
+  
+   

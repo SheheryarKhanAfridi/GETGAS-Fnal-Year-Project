@@ -1,0 +1,345 @@
+.warning{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+.back-btn-warning{
+    border: 0px;
+    outline: none;
+    padding: 7px 45px;
+    background: #00584e;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.back-btn-warning:hover{
+    background: transparent;
+    border: 2px solid #00584e;
+}
+.orderbox{
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    background: #00584e;
+}
+.parent{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.orderbox2{
+    width: 600px;
+    border-radius: 30px;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-left: -30px;
+}
+.orderbox:hover{
+    
+    background: #00584e;
+    z-index: 2;
+    transform: scale(1.02); 
+    transition: transform 0.5s ease; 
+}
+.orderbox p {
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);;
+}
+.detailsshop ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.detailsshop ul{
+    margin-top: 40px;
+}
+.detailsshop ul li:nth-child(2){
+    color: white;
+    margin-inline: 10px;
+    padding: 5px;
+}
+.detailsshop ul li:nth-child(4){
+    color: white;
+    margin-inline: 10px;
+    padding: 5px;
+}
+.btnparent{
+    display: flex;
+    justify-content: center;
+}
+.btnparent button{
+    background: none;
+    outline: none;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+    padding: 8px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+}
+.btnparent button:hover {
+    transform: scale(1.1); /* You can adjust the scale factor as needed */
+    transition: transform 0.2s ease; /* Smooth transition over 0.2 seconds with ease timing function */
+}
+.ShopDetailsinfo ul{
+ background: transparent !important;
+}
+.userdetails{
+    width: 600px;
+    padding: 30px;
+   padding-top: 30px;
+}
+.PlaceOrder-btn{
+    background: #00584e;
+    color: white;
+    border: 0px;
+    outline: none;
+    padding-block: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 80% !important;
+}
+.PlaceOrder-btn:hover{
+    
+    transform: scale(1.1); /* You can adjust the scale factor as needed */
+    transition: transform 0.2s ease;
+}
+.btn-pace-parent{
+    display: flex;
+    justify-content: center;
+}
+.shopname ul li{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.guiblines-show{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+.loadingdata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width:799px) {
+    .parent{
+        flex-wrap: wrap;
+    }
+    .orderbox2{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:550px) {
+    .orderbox2{
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+.placeParent{
+    height: 85vh;
+}
+.orderplaced-logo{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.bill{
+    display: flex;
+    justify-content: center;
+}
+.order-child1 img{
+    width: 250px;
+}
+.order-child1 h4{
+    font-family: serif;
+}
+.order-child1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.order-child1 button{
+    outline: none;
+    background: #00584e;
+    color: white;
+    padding: 8px 50px;
+    border: 0px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.order-child1 button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.child3 h5{
+    font-size: 15px;
+}
+.child3{
+    width: 400px;
+}
+.billdetails{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+.billdetails button{
+    border: 0px;
+    background: white;
+    color: #00584e;
+    padding: 8px 30px;
+    font-size: 18px;
+    border-bottom: 2px solid ;
+    border-radius: 10px;
+}
+.billdetails button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.orderconfirmedmsg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background: white;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+.view-order-card{
+    width: 24rem !important;
+}
+.card-height{
+}
+.toaster{
+    display: flex;
+    justify-content: flex-end;
+}
+.OrdersView-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.chekkks{
+    background: url('../src/Pictures/register.png');
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.chekkksz{
+    background: transparent;
+    backdrop-filter: blur(9px);
+}
+.zeroOrder h1{
+ text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: #00584e;
+ font-weight: 900;
+
+}
+.zeroOrder{
+    border-bottom: 1px solid  ;
+}
+/* .navbarstickey{
+    position: sticky;
+} */
+
+
+.placeorder-btn-vendor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edditionalbtn{
+    text-decoration: none;
+}
+.stickynav-edit{
+    width: 100%;
+    position: sticky ;
+    z-index: 10;
+    top: 0;
+  }
+  .form-control{
+    color: black !important;
+  }
+
+
+.specificorder p strong {
+    color: #00584e;
+   
+}
+.specificorder p {
+    color: black;
+    background: rgb(194, 194, 194);
+    padding: 10px;
+    border-radius: 5px;
+}
+.orderAlreadyaccepted:hover{
+    cursor: no-drop;
+    scale: 1;
+}
+.orderAlreadyaccepted{
+    background: rgba(0, 0, 0, 0.737);
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+.AcceptOrder{
+    border: 0;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    padding: 6px 30px;
+}
+.model-delivery-parent{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.shopstatusbox h6{
+        font-size: 18px;
+        color: #003831;
+}

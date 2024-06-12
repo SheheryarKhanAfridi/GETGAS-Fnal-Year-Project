@@ -1,0 +1,95 @@
+
+.vnav{
+    height: 15vh;
+    background: #0a433f;
+}
+.VendorNavbck{
+    background: #0a433f;
+}
+.child1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dropbtn{
+    font-size: 16px !important;
+    background: white !important;
+    color: black !important;
+}
+.child1 h5{
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.VpagesLink{
+    border: 1px solid #0a433f;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin: 5px;
+    font-size: 16px;
+    padding: 8px 15px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    border-radius: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.VpagesLink:hover {
+    background-color: #0a433f;
+    color: white;
+}
+
+.VpagesLink:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s;
+}
+
+.VpagesLink:hover:after,
+.VpagesLink.active:after {
+    border-bottom-color: white;
+}
+.VpagesLink:nth-child(){
+    padding: 8px 30px;
+}
+.VpagesLink:nth-child(3):hover{
+    background:linear-gradient(45deg, #ff9000, #ff2600);
+}
+
+@media only screen and (max-width: 767px){
+    .vnav {
+        height: 21vh;
+    }
+    .child1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+.history-order-close-btn-user-parent{
+   text-align: center;
+   
+}
+.history-order-close-btn-user{
+    background: #0a433f;
+    color: white;
+    outline: #ff9000;
+    border: 0px;
+    padding: 7px 12px;
+    font-size: 15px;
+    margin: 5px;
+}

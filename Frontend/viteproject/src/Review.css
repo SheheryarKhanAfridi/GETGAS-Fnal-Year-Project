@@ -1,0 +1,150 @@
+
+.container-wrapper {
+  background-color: #EDF0F9;
+}
+
+.rating-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.rating-wrapper {
+  align-self: center;
+  /* box-shadow: 7px 7px 25px rgba(198, 206, 237, .7),
+              -7px -7px 35px rgba(255, 255, 255, .7),
+              inset 0px 0px 4px rgba(255, 255, 255, .9),
+              inset 7px 7px 15px rgba(198, 206, 237, .8);  */
+  border-radius: 5rem;
+  display: inline-flex;
+  direction: rtl !important;
+  margin-left: auto;
+
+  label {
+    color: #dae2f9;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 2rem;
+    padding: 5px;
+    transition: color 0.5s;
+  }
+  
+   
+
+ 
+  input {
+    display: none;
+  }
+
+  label:hover,
+  label:hover ~ label,
+  input:checked ~ label  {
+    color: #34AC9E;
+  }
+
+  label:hover,
+  label:hover ~ label,
+  input:checked ~ label  {
+    color: #34AC9E;
+  }
+}
+
+  
+  .card-custom {
+  /* border-bottom-left-radius: 10% 50%;
+  border-top-left-radius: 10% 50%;
+  /* background-color: #f8f9fa ;  */
+  }
+  
+  
+  .input-custom {
+  background-color: white ;
+  }
+  
+  .white-text {
+  color: hsl(52, 0%, 98%);
+  font-weight: 100 ;
+  font-size: 16px;
+  }
+  
+  .back-button {
+  background-color: hsl(52, 0%, 98%);
+  font-weight: 700;
+  color: black ;
+  margin-top: 50px ;
+  }
+.card-back{
+  background: #1b6e64 ;
+}
+.form-child-1{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.form-child-1 p{
+  margin-bottom: 0px;
+}
+.form-child-1 h5{
+  margin-bottom: 0px;
+}
+.input-custom{
+  /* background:#1b6e64 ; */
+ 
+  color: #1b6e64;
+}
+.review-icon{
+  width: 100px;
+  background: white;
+  border-radius: 10px;
+}
+.form-label{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.form-outline{
+  margin-bottom: 5px;
+}
+.loader{
+  width: 100vw;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.review-text{
+  border: 0px;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.txt-area{
+  display: flex ;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-left:10px;
+}
+.back-button{
+  border: 0px;
+  outline: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+}
+.Check-box-identity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.Check-box-identity input{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.Check-box-identity p {
+  font-size: 17px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}

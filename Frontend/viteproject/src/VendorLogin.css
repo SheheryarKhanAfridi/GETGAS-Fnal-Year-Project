@@ -1,0 +1,238 @@
+.VendorPic{
+    width: 230px;
+    height: 350px;
+    transform: rotate(-40deg);
+    background: url(../src/Pictures/VendorLoginPic.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: -40px; 
+    
+}
+.stickynav-edit{
+    width: 100%;
+    position: sticky ;
+    z-index: 10;
+    top: 0;
+  }
+.vendorback{
+    background: #0a433f;
+}
+.Vendor-parent form{
+    z-index: 5;
+}
+.handle-vendor-login-register{
+    background: transparent;
+    border: 0px;
+    color: black;
+    outline: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.VendorFormbody{
+    width: 600px;
+    background: #F5F5F5;
+    z-index: 10;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px;
+}
+.Vendor-parent{
+    display: flex;
+    padding: 50px;
+}
+.Vendor-form-logo{
+    text-align: center;
+
+}
+.getVlogo b{
+    background: -webkit-linear-gradient(45deg, #ff9000, #ff2600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.getVlogo h3{
+   color: black;
+   font-size: 60px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Vendor-form-logo p{
+padding: 20px;
+color: #717171;
+text-align: center;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+.Vendor-inputbox{
+    position: relative;
+    width: 300px;
+    margin-top: 20px;
+}
+.Vendor-inputbox input{
+    position: relative;
+    width: 100%;
+    padding: 9px 1px 9px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    /* color: #23242a; */
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+    border: 1px solid #B7B7B7;
+    border-radius: 10px;
+}
+.Vendor-inputbox span{
+     position: absolute;
+     left: 0;
+     pointer-events: none;
+     color: #8f8f8f;
+     font-size: 18px;
+     letter-spacing: 0.05em;
+     transition: 0.5s;
+     margin-top: 10px;
+     padding-left: 5px;
+}
+.Vendor-inputbox input:valid + span,
+.Vendor-inputbox input:focus + span{
+    
+    color: black;
+    font-size: 0.75em;
+    transform: translateY(-30px);
+}
+.Vendor-inputbox input:focus {
+    
+    border-radius: 10px;
+    background: #B7B7B7;
+     color: black;
+     
+}
+.Contact-btn-box{
+    padding-top: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.Contact-us{
+    border: 0px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.Login-vendor-btn{
+    width: 80%;
+    margin-top: 10px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background: #1979BB;
+    padding: 9px 100px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .Vendor-parent {
+        display: block;
+       
+    } 
+    .VendorPic {
+        margin-top: 20px;
+        margin-right: 0; 
+        transform: none; 
+        width: 160px;
+        height: 250px;
+    }
+    .VendorFormbody{
+        margin-top: -100px;
+    }
+    
+    
+    }
+    @media only screen and (max-width: 767px){
+        .container {
+            max-width: 719px;
+        }
+    }
+    @media only screen and (max-width: 719px){
+        .VendorFormbody {
+            width: 417px;
+        }
+        .getVlogo h3 {
+            font-size: 35px;
+        }
+        .Vendor-form-logo p {
+            padding: 0px;
+            padding-top: 10px;
+             font-size: 12px;
+            
+        }
+        .Vendor-inputbox {
+            width: 226px;
+            
+        }
+        .Vendor-inputbox input {
+            padding: 7px 10px 10px;
+            
+        }
+        .Vendor-inputbox span {
+            font-size: 18px;
+        }
+        .Contact-us {
+            font-size: 15px;
+        }
+        .Vendor-parent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    @media only screen and (max-width: 550px){
+        .VendorFormbody {
+            width: 240px;
+            border-radius: 10px;
+        }
+        
+        .Vendor-parent {
+            padding: 0px;
+        }
+        .VendorPic {
+            margin-top: 35px;
+            width: 150px;
+            height: 250px;
+        }
+        .Vendor-form-logo p {
+            font-size: 11px;
+        }
+        .Contact-btn-box {
+            width: 209px;
+        }
+        .Login-vendor-btn{
+            width: 230px;
+        }
+        .getVlogo img{
+            width: 60px;
+        }
+        .getVlogo h3 {
+            font-size: 30px;
+        }
+        .Vendor-parent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+   

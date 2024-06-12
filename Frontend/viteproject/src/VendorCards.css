@@ -1,0 +1,41 @@
+.cards-parent{
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 85vh;
+    backdrop-filter: blur(3px); 
+}
+
+.card1{
+    width: 280px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+}
+.card:hover{
+    border-bottom: 5px solid #0a433f;
+}
+.cardsPic{
+    width: 80%;
+}
+.card-parent{
+    display: flex;
+    justify-content: center;
+}
+.Linkcards{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-style: italic; 
+}
+.card1:hover{
+    transform: scale(1.05);
+}
+.stickynav-edit{
+    width: 100%;
+    position: sticky ;
+    z-index: 10;
+    top: 0;
+  }

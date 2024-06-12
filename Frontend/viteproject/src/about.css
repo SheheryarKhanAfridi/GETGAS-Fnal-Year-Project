@@ -1,0 +1,111 @@
+.our-mission{
+    background: -webkit-linear-gradient(45deg, #ff9000, #ff2600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.stickynav-edit{
+    width: 100%;
+    position: sticky ;
+    z-index: 10;
+    top: 0;
+  }
+
+  .remember{
+    background: #008374;
+  }
+.remember h3{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.end-1{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-2:nth-child(2){
+    font-size: 20px;
+    background-color: #008374;
+    border-top-right-radius: 50px;
+    color: white;
+}
+.end-2:nth-child(3){
+    font-size: 20px;
+    background-color: #008374;
+    color: white;
+    border-top-right-radius: 50px;
+}
+.mockup-1{
+    width: 100%;
+    padding-bottom: 50px;
+    border-radius: 50px;
+}
+.special-child-child{
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+@media screen and (max-width:767px){
+    .end-2:nth-child(1){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .mockup-1{
+        width: 350px;
+    }
+    .end-2:nth-child(4){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .end-2:nth-child(3){
+       padding: 50px;
+       margin-top: 50px;
+    }
+    .end-2:nth-child(2){
+        padding: 50px;
+     }
+     .specialchild1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+     }
+     .remember h3{
+        font-size: 20px;
+     }
+     .specialchild1 h1{
+        padding-top: 10px;
+     }
+     
+
+}
+@media screen and (max-width:400px){
+    .end-2:nth-child(1){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .mockup-1{
+        width: 250px;
+    }
+    .end-2:nth-child(4){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .end-2:nth-child(3){
+       padding: 20px;
+    }
+    .end-2:nth-child(2){
+        padding: 20px;
+     }
+     
+     .remember h3{
+        font-size: 20px;
+     }
+}
