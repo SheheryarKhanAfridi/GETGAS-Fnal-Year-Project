@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "../App.css";
-import '../About.css';
+import '../about.css';
 import NAV from '../Component/NAV';
 import io from 'socket.io-client';
 import mockup1 from '../Pictures/mockup1.png'
